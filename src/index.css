@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px!important;
+  line-height: 18px;
+  overflow-x: hidden;
+}
+.fw-light {
+  font-weight: 100;
+}
+.fw-bold {
+  font-weight: 700;
+}
+.card-product {
+  width: 100%;
+}
+.img-product-size {
+  object-fit: contain;
+  max-height: 300px;
+  max-width: 100%;
+}
+#NavbarStore a {
+  text-decoration: none;
+}
+#NavbarStore a.active {
+  font-weight: bold;
+  text-decoration: none;
+}
+.carousel.slide {
+  height: calc(100vh - 136px);
+  overflow: hidden;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 0px;
+  top: 0px;
+  margin: auto 0px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
